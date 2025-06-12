@@ -1,0 +1,81 @@
+video {
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+header {
+    top: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+
+    border: 10px solid black;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    text-decoration: underline;
+
+}
+
+img {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: 8px solid black;
+    border-radius: 15px;
+
+}
+
+article {
+    padding: 0px;
+    margin-top: 180px;
+    margin-left: 1650px;
+    margin-right: 50px;
+    margin-bottom: 550px;
+    background-color: white;
+    border: 10px solid black;
+    text-align: center;
+    border-radius: 15px;
+}
+
+table {
+    margin-top: 400px;
+    border:25px solid black;
+    table-layout: fixed;
+    width: 80%;
+    margin: 30px auto;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+
+th, td {
+   
+    border: 5px solid black;
+    padding: 25px;
+}
+
+
+div{
+    font-size: 45px;
+    display:flex;
+    border:5px solid black;
+    background-color:white;
+    height:55px;
+    width:600px;
+    border-radius: 10px;
+    text-align: center  ;
+    gap: 100px;
+    
+}
